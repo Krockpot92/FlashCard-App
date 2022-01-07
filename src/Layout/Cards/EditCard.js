@@ -29,7 +29,7 @@ export default function EditCard() {
     }
     loadDecks();
     loadCards();
-  }, []);
+  }, [deckId,cardId]);
 
   const handleCardFront = (event) => setCardFront(event.target.value);
   const handleCardBack = (event) => setCardBack(event.target.value);

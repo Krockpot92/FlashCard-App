@@ -23,7 +23,7 @@ export default function EditDeck() {
       setDeckInfo(decksFromAPI.description);
     }
     loadDecks();
-  }, []);
+  }, [deckId]);
 
   const handleDeckSubmit = (event) => {
     event.preventDefault();

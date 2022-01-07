@@ -20,7 +20,7 @@ export default function AddCard() {
       setDecks(decksFromAPI);
     }
     loadDecks();
-  }, []);
+  }, [deckId]);
 
   const handleDeckSubmit = (event) => {
     event.preventDefault();

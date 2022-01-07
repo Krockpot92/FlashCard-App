@@ -49,7 +49,7 @@ export default function StudyPage() {
       setCurrentCard(decksFromAPI.cards[cardIndex]);
     }
     loadDecks();
-  }, []);
+  }, [deckId]);
 
   // Not enough cards
   if (cards.length < 3) {

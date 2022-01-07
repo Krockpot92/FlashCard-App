@@ -18,7 +18,7 @@ export default function ViewDeck() {
       setCards(response.cards);
     }
     loadDecks();
-  }, []);
+  }, [deckId]);
 
   console.log(cards);
 
