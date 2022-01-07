@@ -1,0 +1,111 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "name": "Rendering in React",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation. "
+    },
+    {
+      "name": "React Router",
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    }
+  ],
+  "cards": [
+    {
+      "front": "Differentiate between Real DOM and Virtual DOM!!!!!!",
+      "back": "Virtual DOM updates are faster but do not directly update the HTML",
+      "id": 1,
+      "deckId": 1
+    },
+    {
+      "front": "How do you modify the state of a different React component?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "back": "Not at all! State is visible to the component only.\nsadasd\nasasd",
+      "id": 2,
+      "deckId": 1
+    },
+    {
+      "front": "sad",
+      "back": "asds",
+      "id": 3,
+      "deckId": 1
+    },
+    {
+      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
+      "back": "All paths. A route with no path matches all URL's",
+      "deckId": 2,
+      "id": 4
+    },
+    {
+      "front": "What does <Switch> do?",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "front": "b!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "back": "b!!!",
+      "id": 7,
+      "deckId": 1
+    },
+    {
+      "front": "But did it really work dude",
+      "back": "Who knows man",
+      "id": 8
+    },
+    {
+      "front": "sdasd",
+      "back": "sdasdsds",
+      "deckId": null,
+      "id": 10
+    },
+    {
+      "front": "sdasd",
+      "back": "sdasdsds",
+      "deckId": null,
+      "id": 11
+    },
+    {
+      "front": "Nesdasdasd",
+      "back": "plasdasdasd",
+      "id": 12
+    },
+    {
+      "front": "ashasyhuasd",
+      "back": "kashbjnjkasnjas",
+      "id": 13
+    },
+    {
+      "front": "testasdasd",
+      "back": "test test sadasd",
+      "id": 14
+    },
+    {
+      "front": "sadasdas",
+      "back": "asdasdasds",
+      "id": 15
+    },
+    {
+      "front": "jkjkssddasdas",
+      "back": "hjkhjksdsd",
+      "id": 16
+    },
+    {
+      "front": "sggghhhhccxv",
+      "back": "llllllllllllllvxcvxc",
+      "id": 17
+    },
+    {
+      "front": "sdasdasd!!",
+      "back": "sadasd!!!",
+      "id": 18,
+      "deckId": 2
+    },
+    {
+      "front": "sasdasd",
+      "back": "asdasd",
+      "deckId": 3,
+      "id": 19
+    }
+  ]
+}
